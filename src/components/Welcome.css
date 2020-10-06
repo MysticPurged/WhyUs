@@ -1,0 +1,74 @@
+.welcome__hero{
+    background-image: url('./images/Group\ 27.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 60vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.welcome__hero h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+    font-weight: lighter;
+    text-align: center;
+    color: #ffffff;
+    letter-spacing: -2px;
+    line-height: 120px;
+}
+
+.line{
+    width: 50em;
+    top: 50%;
+    margin: auto;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+.anim-typewriter {
+    animation: typewriter 1s steps(10) 1s 1 normal both,
+    blinkTextCussor 300ms steps(10) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+          width: 0;
+    }
+    to {
+          width: 4.5em;
+    }
+}
+
+@media(max-width: 768px) {
+    @keyframes typewriter {
+          from {
+                width: 0;
+          }
+          to {
+                width: 4.5em;
+          }
+    }
+
+    .welcome__hero h1{
+        font-size: 50px;
+        line-height: 51px;
+    }
+    .welcome__hero{
+        height: 30vh;
+    }
+}
+
+@keyframes blinkTextCussor {
+    from {
+          border-right-color: rgba(255, 255, 255, 0.75);
+    }
+    to {
+          border-right-color: transparent;
+    }
+}
