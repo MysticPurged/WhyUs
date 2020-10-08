@@ -12,6 +12,7 @@ function About() {
     return (
         <>
          <AboutHeader/>
+         
          <AboutHeroSection{...aboutObjectOne}/> 
          <AboutHeroSection{...aboutObjectTwo}/> 
          <AboutFooter{...aboutObjectThree}/>

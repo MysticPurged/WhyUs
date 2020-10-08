@@ -61,3 +61,5 @@ export const serviceObjectOne = {
     imgStart: '',
     barImage: 'images/Path 31.png'
 }
+
+

@@ -10,7 +10,27 @@ function OurWork({ lightBg, topLine, lightText, lightTextDesc, headLine, descrip
                     <div className="our-work-row-heading">
                         <h1 className={lightText ? 'heading' : 'heading dark'}><GoldBar image = {barImage}></GoldBar>{title}</h1>
                     </div>
-
+                    <div className="our-work-row">
+                    <div className="our-work-col">
+                                
+                                <img src={image1} alt="" className="our-work__hero-img"/>
+                             
+                            </div>
+                            <div className="our-work-col">
+                             
+                                <img src={image2} alt="" className="our-work__hero-img"/>
+                              
+                            </div>
+                            <div className="our-work-col">
+                                
+                                <img src={image3} alt="" className="our-work__hero-img"/>
+                              
+                            </div>
+                            <div className="our-work-col">
+                                <img src={image4} alt="" className="our-work__hero-img"/>
+                                
+                            </div>
+                    </div>
                 </div>
             </div>  
         </>

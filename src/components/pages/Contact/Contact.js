@@ -1,11 +1,16 @@
 import React from 'react'
 import ContactForm from '../../ContactForm'
+import ContactHeader from './ContactHeader'
+
+import { contactObjectOne } from './Data'
 
 function Contact() {
     return (
-        <>
-        <ContactForm/>
-        </>
+        <div>
+           
+            <ContactHeader{...contactObjectOne}/>
+            <ContactForm/>
+        </div>
     )
 }
 
