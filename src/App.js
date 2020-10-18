@@ -8,10 +8,12 @@ import Footer from './components/pages/Footer/Footer';
 import About from './components/pages/About/About';
 import Services from './components/pages/Services/Services';
 import Contact from './components/pages/Contact/Contact';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Navbar/>
       <Switch>
         <Route path= '/' exact component={Home}/>

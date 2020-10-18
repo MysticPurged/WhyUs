@@ -7,9 +7,12 @@ function OurWork({ lightBg, topLine, lightText, lightTextDesc, headLine, descrip
         <>
             <div className = {lightBg ? 'our-work__hero-section' : 'our-work__hero-section darkBg'}>
                 <div className="our-work-container">
+                    
                     <div className="our-work-row-heading">
                         <h1 className={lightText ? 'heading' : 'heading dark'}><GoldBar image = {barImage}></GoldBar>{title}</h1>
                     </div>
+
+
                     <div className="our-work-row">
                     <div className="our-work-col">
                                 

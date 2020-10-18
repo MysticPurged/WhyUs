@@ -23,7 +23,7 @@
 .services-col{
     flex: 25%;
   max-width: 25%;
-  padding: 0 4px;
+  padding:  4px;
 }
 
 .services-title{
@@ -81,12 +81,17 @@
 }
 
 @media screen and (max-width:768px){
+    .service_image{
+        padding-top: 60px;
+    }
     .services-hero{
+        
         height: 1200px;
 
     }
     .services-col{
-        margin-left: 160px;
+        margin-right: 100px;
+        margin-left: 25%
     }
     .service-title{
         margin-left: 40%;
