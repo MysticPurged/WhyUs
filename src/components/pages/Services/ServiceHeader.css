@@ -21,7 +21,20 @@ h1{
     font-weight: 300;
 }
 
+
+@media screen and (max-width: 960px){
+    .service_header{
+        background-repeat: repeat-y;
+        background-size: 100%;
+    }
+}
+
 @media screen and (max-width: 770px){
+    .service_header{
+        background-repeat: repeat-y;
+        background-size: 100%;
+    }
+
     .service-title{
         left: 10%;
         margin-top: 100px;

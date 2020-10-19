@@ -24,19 +24,19 @@
 
 .about-row{
     display: flex;
-    margin-right: -15px;
-    margin-bottom: -15px;
-    margin-left: -15px;
+
     align-content: stretch;
 }
 
 .about-col{
-    margin-bottom: 15px;
-    padding-right: 15px;
-    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    margin-top: 100px;
    
-    max-width: 50%;
-    flex-basis: 50%;
+
+    flex-basis: 95%;
     align-content: center;
     justify-content: center;
 }
@@ -123,9 +123,22 @@
     .about-row{
         flex-wrap: wrap;
     }
+
+    .about-col{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        text-align: center;
+        margin-top: 100px;
+       
+    
+     
+        align-content: center;
+        justify-content: center;
+    }
 }
 
-@media screen and (max-width: 760px){
+@media screen and (max-width: 7px){
     .about__hero-text-wrapper{
         padding-bottom: 65px;
 

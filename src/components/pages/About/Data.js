@@ -5,7 +5,7 @@ export const aboutObjectOne = {
     lightTextDesc : true,
     
     headLine : 'Beginning',
-    description : 'In 2019 three young entrepreneurs, Thashil Maharaj, Cameron Surname and Herman Surname founded Why Us. It all started when the partners realised that people around them were not getting the maximum performance out of their network providers.',
+    description : 'In 2019 three young entrepreneurs, Thashil Maharaj, Cameron Keylock and Herman Woest founded Why Us. It all started when the partners realised that people around them were not getting the maximum performance out of their network providers.',
     description2 : 'By combining all their skills, collecting the right research and taking the necessary steps to make sure they know what they are doing, they are able to provide one-of-a-kind services.',
     buttonLabel : 'Find Out More',
     imgStart: '',
