@@ -40,6 +40,22 @@
     padding-top: 2%;
 }
 
+@-moz-document url-prefix(){
+    .services-title{
+        margin-top: 50px;
+        position: absolute;
+        left: 50%;
+        
+        transform: translate(-50%, 5%);
+        color: #ffffff;
+        font-size: 25px;
+    
+        text-align: center;
+    
+        padding-top: 2%;
+    }
+}
+
 .service_image{
     padding-top: 50px;
     display: inline-block;
