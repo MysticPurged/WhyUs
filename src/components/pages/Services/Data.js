@@ -11,7 +11,8 @@ export const serviceObjectTwo = {
     img : 'images/service_cable.jpg',
     alt : 'credit card',
     imgStart: 'start',
-    barImage: 'images/Path 31.png'
+    barImage: 'images/Path 31.png',
+    destination: '/cableManagement'
 }
 
 export const serviceObjectFour = {
@@ -27,7 +28,8 @@ export const serviceObjectFour = {
     img : 'images/service_maintain.jpg',
     alt : 'credit card',
     
-    barImage: 'images/Path 31.png'
+    barImage: 'images/Path 31.png',
+    destnation: '/maintenance'
 }
 
 export const serviceObjectThree = {
@@ -43,7 +45,8 @@ export const serviceObjectThree = {
     img : 'images/service_camera.jpg',
     alt : 'credit card',
     imgStart: '',
-    barImage: 'images/Path 31.png'
+    barImage: 'images/Path 31.png',
+    destination: 'cameraSystems'
 }
 
 export const serviceObjectOne = {
@@ -59,7 +62,8 @@ export const serviceObjectOne = {
     img : 'images/service_wifi.jpg',
     alt : 'credit card',
     imgStart: '',
-    barImage: 'images/Path 31.png'
+    barImage: 'images/Path 31.png',
+    destination: 'wifiOptimization'
 }
 
 

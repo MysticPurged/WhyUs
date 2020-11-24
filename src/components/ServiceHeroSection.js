@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import './AboutHeroSection.css';
 import {GoldBar} from './Goldbar';
 
-function AboutHeroSection({
+function ServiceHeroSection({
     lightBg, topLine, lightText, lightTextDesc, headLine, description,description2, buttonLabel, img, alt, imgStart, barImage, destination
 }) {
     return (
@@ -24,7 +24,9 @@ function AboutHeroSection({
                                 <p className = {lightTextDesc ? 'home__hero-subtitle' : 'home__hero-subtitle dark'}>{description2}</p>
                                 
                            
-
+                                <Link to ={destination} className='homeButton'>
+                                    <Button buttonSize='btn==wide' buttonColor='grey'>{buttonLabel}</Button>
+                                </Link>
                             </div>
                         </div>
                         <div className="col">
@@ -39,4 +41,4 @@ function AboutHeroSection({
     )
 }
 
-export default AboutHeroSection
+export default ServiceHeroSection

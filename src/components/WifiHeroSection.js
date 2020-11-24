@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 import './AboutHeroSection.css';
 import {GoldBar} from './Goldbar';
 
-function AboutHeroSection({
+function WifiHeroSection({
     lightBg, topLine, lightText, lightTextDesc, headLine, description,description2, buttonLabel, img, alt, imgStart, barImage, destination
 }) {
     return (
@@ -39,4 +39,4 @@ function AboutHeroSection({
     )
 }
 
-export default AboutHeroSection
+export default WifiHeroSection

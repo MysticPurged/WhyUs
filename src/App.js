@@ -9,6 +9,7 @@ import About from './components/pages/About/About';
 import Services from './components/pages/Services/Services';
 import Contact from './components/pages/Contact/Contact';
 import ScrollToTop from './components/ScrollToTop';
+import wifiOptimization from './components/pages/Wifi/wifiOptimization';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path= '/about' exact component={About}/>
         <Route path = '/services' exact component={Services}/>
         <Route path = '/contact' exact component={Contact}/>
+        <Route path = '/wifiOptimization' exact component={wifiOptimization}/>
       </Switch>
       <Footer/>
     </Router>
