@@ -4,7 +4,7 @@ export const homeObjOne = {
     lightTextDesc : true,
     topLine : '',
     headLine : 'Who We Are',
-    description : 'In 2019 three young entrepreneurs, Thashil Maharaj, Cameron Keylock and Herman Woest founded Why Us. It all started when the partners realised that people around them were not getting the maximum performance out of their network providers.\n\n\n',
+    description : 'Why Us, Founded in 2019 by Cameron keylock, Thashil Maharaj and Herman Woest is a modern networking solution comapny that will help transform your household or office space to maximise your network performance. We can do this in a variety of ways to suit your network needs while also staying in your budget.\n\n\n',
     buttonLabel : 'Find Out More',
     imgStart: '',
     img : 'images/Group 28.png',
@@ -14,7 +14,7 @@ export const homeObjOne = {
 
 
 export const homeObjTwo = {
-    title: 'Services',
+    title: 'Services Offered',
     icon1: 'images/CableM.png',
     icon2: 'images/Maintainance.png',
     icon3: 'images/Camera.png',

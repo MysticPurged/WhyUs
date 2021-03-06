@@ -25,7 +25,9 @@
     padding-right: 50px;
     padding-left: 50px;
   }
-  
+  .social-icon-link{
+    padding-left: 30px;
+  }
   .navbar-logo {
     color: #fff;
     justify-self: start;
@@ -89,6 +91,7 @@
       position: relative;
     }
     
+
     .navbar{
       height: 80px;
     }

@@ -6,7 +6,7 @@ function ServiceHeader() {
         <>
             <div className="service_header">
                 <div className="service-title">
-                <h1>Services</h1>
+                <h1>Services Offered</h1>
                 </div>
                 
             </div>

@@ -5,6 +5,10 @@ import {FaBars, FaTimes} from 'react-icons/fa';
 import { Button } from './Button';
 import './Navbar.css'
 import './animate.css'
+import {
+    FaFacebook,
+    FaInstagram,
+} from 'react-icons/fa';
 
 import {IconContext} from 'react-icons/lib'
 
@@ -60,7 +64,26 @@ function Navbar(image_logo) {
                                 Contact Us
                             </Link>
                         </li>
-
+                        <li>
+                        <Link
+                            className='social-icon-link'
+                            to={'//www.facebook.com/WhyUs-Network-Solutions-106368424294746/?view_public_for=106368424294746'}
+                            target='_blank'
+                            aria-label='Facebook'
+                        >
+                        <FaFacebook />
+                        </Link>
+                        </li>
+                        <li>
+                        <Link
+                        className='social-icon-link'
+                        to='//www.instagram.com/whyus_networksolutions/?hl=en'
+                        target='_blank'
+                        aria-label='Instagram'
+                        >
+                        <FaInstagram />
+                        </Link>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -70,3 +93,4 @@ function Navbar(image_logo) {
 }
 
 export default Navbar
+
