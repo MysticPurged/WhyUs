@@ -10,6 +10,8 @@ import Services from './components/pages/Services/Services';
 import Contact from './components/pages/Contact/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import wifiOptimization from './components/pages/Wifi/wifiOptimization';
+import cableManagement from './components/pages/CableManagement/cableManagement';
+import camera from './components/pages/Camera/camera';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
         <Route path = '/services' exact component={Services}/>
         <Route path = '/contact' exact component={Contact}/>
         <Route path = '/wifiOptimization' exact component={wifiOptimization}/>
+        <Route path = '/cableManagement' exact component={cableManagement}/>
+        <Route path = "/camera" exact component={camera}/> 
       </Switch>
       <Footer/>
     </Router>

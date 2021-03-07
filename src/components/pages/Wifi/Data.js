@@ -1,3 +1,8 @@
+export const Title ={
+    serviceTitle : 'Wifi Optimization'
+
+}
+
 export const WifiObjectOne = {
     lightBg : true,
     lightText : true,

@@ -46,7 +46,7 @@ export const serviceObjectThree = {
     alt : 'credit card',
     imgStart: '',
     barImage: 'images/Path 31.png',
-    destination: 'cameraSystems'
+    destination: 'camera'
 }
 
 export const serviceObjectOne = {

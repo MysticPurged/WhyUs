@@ -4,9 +4,9 @@ export const aboutObjectOne = {
     lightText : true,
     lightTextDesc : true,
     
-    headLine : 'Beginning',
-    description : 'In 2019 three young entrepreneurs, Thashil Maharaj, Cameron Keylock and Herman Woest founded Why Us. It all started when the partners realised that people around them were not getting the maximum performance out of their network providers.',
-    description2 : 'By combining all their skills, collecting the right research and taking the necessary steps to make sure they know what they are doing, they are able to provide one-of-a-kind services.',
+    headLine : 'Who We Are',
+    description : 'Why Us was founded in 2019 by Thashil Maharaj, Cameron Keylock and Herman Woest. Our goal is to help you get the maximum performance out of your network systems. We do this in a variety of ways to suit your network needs while staying in your budget.',
+    description2 : 'Our services can provide you with maximum network speed, throug quality, well-priced hardware, efficient cable management and off-site maintenance of your system should a problem ever occur. Our networking solutions will transform your home or office space into a modern hub.',
     buttonLabel : 'Find Out More',
     imgStart: '',
     img : 'images/Group 28.png',

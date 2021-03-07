@@ -14,7 +14,7 @@ function ServicePanel({title, icon1, icon2, icon3, icon4, barImage}) {
                     </div>
                     <div className="services-row">
                             <div className="services-col">
-                                <Link to='/services'>
+                                <Link to='/cableManagement'>
                                 <img src={icon1} alt="" className="service_image"/>
                                 </Link>
                             </div>
@@ -29,7 +29,7 @@ function ServicePanel({title, icon1, icon2, icon3, icon4, barImage}) {
                                 </Link>
                             </div>
                             <div className="services-col">
-                                <Link to = '/services'>
+                                <Link to = '/wifiOptimization'>
                                 <img src={icon4} alt="" className="service_image"/>
                                 </Link>
                             </div>

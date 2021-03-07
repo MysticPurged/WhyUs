@@ -2,11 +2,11 @@ import React from 'react'
 import WifiHeroSection from '../../WifiHeroSection'
 import ServiceHeader from '../Services/ServiceHeader'
 import './Data'
-import { WifiObjectOne, WifiObjectTwo, WifiObjectThree } from './Data'
+import {Title, WifiObjectOne, WifiObjectTwo, WifiObjectThree } from './Data'
 function wifiOptimization() {
     return (
         <div>
-            <ServiceHeader/>
+            <ServiceHeader{...Title}/>
             <WifiHeroSection{...WifiObjectOne}/>
             <WifiHeroSection{...WifiObjectTwo}/>
             <WifiHeroSection{...WifiObjectThree}/>
